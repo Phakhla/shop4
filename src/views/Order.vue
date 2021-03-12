@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <H1 />
+    <O1 />
   </div>
 </template>
 
 <script>
-import H1 from '@/components/H1.vue'
+import O1 from '@/components/O1.vue'
 export default {
   name: 'Home',
   components: {
-    H1
+    O1
   }
 }
 </script>

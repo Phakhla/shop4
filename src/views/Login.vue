@@ -1,15 +1,17 @@
 <template>
-  <div class="home">
-    <H1 />
+  <div class="login">
+    <L1 />
   </div>
 </template>
 
 <script>
-import H1 from '@/components/H1.vue'
+import L1 from '@/components/L1.vue'
+
+
 export default {
   name: 'Home',
   components: {
-    H1
+    L1
   }
 }
 </script>
